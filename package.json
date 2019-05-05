@@ -1,13 +1,13 @@
 {
     "name": "vue-lottie-ts",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "private": false,
     "keywords": [
         "vue-lottie",
         "lottie-web",
         "lottie-ts"
     ],
-    "main": "lib/vue-lottie-ts.min.js",
+    "main": "lib/vue-lottie-ts.umd.min.js",
     "license": "MIT",
     "author": "polkYu",
     "scripts": {
