@@ -49,7 +49,7 @@ export default class Lottie extends Vue {
   }
 
   @Emit('created')
-  emitCreated (lottie:any) {}
+  emitCreated (lottie: any) { }
 
   private mounted () {
     this.lottieObj.loadAnimation(this.options)
@@ -58,3 +58,9 @@ export default class Lottie extends Vue {
 }
 
 </script>
+<style>
+.lottie {
+  width: 100%;
+  height: 100%;
+}
+</style>
